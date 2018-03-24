@@ -13,7 +13,7 @@ body {
     display: flex;
     font-family: $font-main;
     height: 100vh;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0;
 }
 
@@ -23,7 +23,6 @@ main {
 }
 
 .box {
-    margin: 96px auto;
     padding: 16px;
 }
 
