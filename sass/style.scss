@@ -1,0 +1,45 @@
+$font-main: 'Open Sans', sans-serif;
+$color-primary: #55acee;
+$color-secondary: #fff;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background-color: $color-primary;
+    color: $color-secondary;
+    display: flex;
+    font-family: $font-main;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    text-align: center;
+}
+
+.box {
+    margin: 96px auto;
+    padding: 16px;
+}
+
+button,
+a {
+    background-color: $color-primary;
+    border: 1px solid $color-secondary;
+    border-radius: 4px;
+    color: $color-secondary;
+    cursor: pointer;
+    display: block;
+    font-size: 0.8em;
+    height: 32px;
+    line-height: 32px;
+    margin: 32px auto;
+    max-width: 300px;
+    text-decoration: none;
+    width: 300px;
+}

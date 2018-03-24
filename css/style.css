@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: #55acee;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0;
+}
+
+main {
+  max-width: 900px;
+  text-align: center;
+}
+
+.box {
+  margin: 96px auto;
+  padding: 16px;
+}
+
+button,
+a {
+  background-color: #55acee;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 0.8em;
+  height: 32px;
+  line-height: 32px;
+  margin: 32px auto;
+  max-width: 300px;
+  text-decoration: none;
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */
