@@ -1,12 +1,18 @@
 var tweetLink = 'https://twitter.com/intent/tweet?text=';
-var quoteUrl = 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=10';
+var quoteUrl = 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=42';
 
 function getQuote() {
     $.getJSON(quoteUrl, createTweet);
 }
 
+function randomize() {
+    var i = Math.floor(Math.random() * 42);
+    return i;
+}
+
 function createTweet(input) {
-    var data = input[0];
+    var i = randomize();
+    var data = input[i];
     var quoteText = $(data.content).text().trim();
     var quoteAuthor = data.title;
 
