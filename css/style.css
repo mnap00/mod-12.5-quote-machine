@@ -6,4 +6,4 @@ main { max-width: 900px; text-align: center; }
 
 .box { padding: 16px; }
 
-button, a { background-color: #55acee; border: 1px solid #fff; border-radius: 4px; color: #fff; cursor: pointer; display: block; font-size: 0.8em; height: 32px; line-height: 32px; margin: 32px auto; max-width: 300px; text-decoration: none; width: 300px; }
+button, a { background-color: #55acee; border: 1px solid #fff; border-radius: 4px; color: #fff; cursor: pointer; display: block; font-size: 0.8em; height: 32px; line-height: 30px; margin: 32px auto; max-width: 300px; padding: 0; text-decoration: none; width: 300px; }
